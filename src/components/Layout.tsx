@@ -17,14 +17,15 @@ type Props = {
   children: ReactNode;
 };
 
-const DefaultDescription = "";
-const DefaultImage = "";
+const DefaultDescription = "Yusuke4869's HomePage";
+const DefaultImage = "https://github.com/yusuke4869.png";
 
 const Metas: FC = () => (
   <>
     <meta charSet="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="https://github.com/yusuke4869.png" />
   </>
 );
 
@@ -48,7 +49,7 @@ const OgpMetas: FC<Information> = ({ PageTitle, PageDescription, PageImage }) =>
 
 const TwitterMetas: FC<Information> = ({ PageTitle, PageDescription, PageImage }) => (
   <>
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="" />
     <meta name="twitter:title" content={PageTitle} />
     <meta name="twitter:description" content={PageDescription} />
@@ -65,11 +66,9 @@ const Layout: FC<Props> = ({ PageTitle, children, PageDescription = DefaultDescr
       <OgpMetas PageTitle={PageTitle} PageDescription={PageDescription} PageImage={PageImage} />
       <TwitterMetas PageTitle={PageTitle} PageDescription={PageDescription} PageImage={PageImage} />
     </Head>
-    <main>
-      <div>
-        <Header />
-        {children}
-      </div>
+    <main className="min-h-screen bg-gray-800 text-slate-200">
+      <Header />
+      {children}
       <Footer />
     </main>
   </>
