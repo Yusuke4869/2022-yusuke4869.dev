@@ -36,7 +36,7 @@ const Skills: FC = () => (
         <Skill Name="React">
           <SiReact color="#61DAFB" />
         </Skill>
-        <Skill Name="Nextjs">
+        <Skill Name="Next.js">
           <SiNextdotjs />
         </Skill>
         <Skill Name="SCSS">
