@@ -17,7 +17,7 @@ type Props = {
   children: ReactNode;
 };
 
-const DefaultDescription = "Yusuke4869's HomePage";
+const DefaultDescription = "Yusuke's HomePage";
 const DefaultImage = "https://github.com/yusuke4869.png";
 
 const Metas: FC = () => (
