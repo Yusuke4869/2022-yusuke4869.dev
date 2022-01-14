@@ -16,6 +16,7 @@ import {
   SiC,
   SiGit,
   SiGithub,
+  SiMongodb,
 } from "react-icons/si";
 
 const Skills: FC = () => (
@@ -77,6 +78,9 @@ const Skills: FC = () => (
         </Skill>
         <Skill Name="GitHub">
           <SiGithub />
+        </Skill>
+        <Skill Name="MongoDB">
+          <SiMongodb color="#47A248" />
         </Skill>
       </div>
     </div>
