@@ -18,7 +18,7 @@ const Works: FC = () => (
     <div className="flex justify-center lg:justify-between flex-wrap ml-4">
       <Product
         Title="VC Notice Bot"
-        Description={["Bot for Sending Notifications for Activity in Discord VC", "Using discord.py"]}
+        Description={["Bot for Sending Notifications for Activity in Discord VC", "With discord.py"]}
         URL={null}
         isRepo
         Username="Yusuke4869"
@@ -41,7 +41,7 @@ const Works: FC = () => (
       </Product>
       <Product
         Title="Growthers/Blog"
-        Description={["Blog of Growthers", "Using Next.js and Tailwind CSS"]}
+        Description={["Blog of Growthers", "With Next.js and Tailwind CSS"]}
         URL="https://blog.growthers.dev"
         isRepo
         Username="Growthers"
