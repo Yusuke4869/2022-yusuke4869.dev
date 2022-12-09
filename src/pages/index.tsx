@@ -1,10 +1,9 @@
-import type { NextPage } from "next";
-
 import Layout from "components/Layout";
+import Links from "components/Links";
 import Profile from "components/Profile";
 import Skills from "components/Skills";
 import Works from "components/Works";
-import Links from "components/Links";
+import type { NextPage } from "next";
 
 const Home: NextPage = () => (
   <Layout PageTitle="Yusuke - Home">

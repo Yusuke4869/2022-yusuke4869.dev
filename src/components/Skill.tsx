@@ -1,14 +1,14 @@
 import type { FC, ReactNode } from "react";
 
 type Props = {
-  Name: string;
+  name: string;
   children: ReactNode;
 };
 
-const Skill: FC<Props> = ({ Name, children }) => (
+const Skill: FC<Props> = ({ name, children }) => (
   <div className="flex items-center p-2">
     {children}
-    <p className="pl-1">{Name}</p>
+    <p className="pl-1">{name}</p>
   </div>
 );
 

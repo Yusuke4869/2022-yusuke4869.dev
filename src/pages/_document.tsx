@@ -1,6 +1,5 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-
 import { GOOGLE_ANALYTICS_ID } from "lib/gtag";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render(): JSX.Element {

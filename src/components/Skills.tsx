@@ -1,22 +1,22 @@
-import type { FC } from "react";
 import Skill from "components/Skill";
-
+import type { FC } from "react";
 import {
-  SiHtml5,
-  SiCss3,
-  SiJquery,
-  SiReact,
-  SiNextdotjs,
-  SiSass,
-  SiTailwindcss,
-  SiFlask,
-  SiPython,
-  SiJavascript,
-  SiTypescript,
   SiC,
+  SiCss3,
+  SiFastify,
+  SiFlask,
   SiGit,
   SiGithub,
+  SiHtml5,
+  SiJavascript,
+  SiJquery,
   SiMongodb,
+  SiNextdotjs,
+  SiPython,
+  SiReact,
+  SiSass,
+  SiTailwindcss,
+  SiTypescript,
 } from "react-icons/si";
 
 const Skills: FC = () => (
@@ -25,61 +25,64 @@ const Skills: FC = () => (
     <div className="pl-4">
       <p className="text-lg">FrontEnd</p>
       <div className="flex flex-wrap pl-4">
-        <Skill Name="HTML5">
+        <Skill name="HTML5">
           <SiHtml5 color="#E34F26" />
         </Skill>
-        <Skill Name="CSS3">
+        <Skill name="CSS3">
           <SiCss3 color="#1572B6" />
         </Skill>
-        <Skill Name="Jquery">
+        <Skill name="Jquery">
           <SiJquery color="#0769AD" />
         </Skill>
-        <Skill Name="React">
+        <Skill name="React">
           <SiReact color="#61DAFB" />
         </Skill>
-        <Skill Name="Next.js">
+        <Skill name="Next.js">
           <SiNextdotjs />
         </Skill>
-        <Skill Name="SCSS">
+        <Skill name="SCSS">
           <SiSass color="#CC6699" />
         </Skill>
-        <Skill Name="TailWind CSS">
+        <Skill name="TailWind CSS">
           <SiTailwindcss color="#06B6D4" />
         </Skill>
       </div>
       <p className="text-lg">BackEnd</p>
       <div className="flex flex-wrap pl-4">
-        <Skill Name="Flask">
+        <Skill name="Fastify">
+          <SiFastify />
+        </Skill>
+        <Skill name="Flask">
           <SiFlask />
         </Skill>
-        <Skill Name="Google Apps Script">
+        <Skill name="Google Apps Script">
           <SiJavascript color="#F7DF1E" />
         </Skill>
       </div>
       <p className="text-lg">Languages</p>
       <div className="flex flex-wrap pl-4">
-        <Skill Name="Python">
+        <Skill name="Python">
           <SiPython color="#3776AB" />
         </Skill>
-        <Skill Name="JavaScript">
+        <Skill name="JavaScript">
           <SiJavascript color="#F7DF1E" />
         </Skill>
-        <Skill Name="TypeScript">
+        <Skill name="TypeScript">
           <SiTypescript color="#3178C6" />
         </Skill>
-        <Skill Name="C">
+        <Skill name="C">
           <SiC color="#A8B9CC" />
         </Skill>
       </div>
       <p className="text-lg">Others</p>
       <div className="flex flex-wrap pl-4">
-        <Skill Name="Git">
+        <Skill name="Git">
           <SiGit color="#F05032" />
         </Skill>
-        <Skill Name="GitHub">
+        <Skill name="GitHub">
           <SiGithub />
         </Skill>
-        <Skill Name="MongoDB">
+        <Skill name="MongoDB">
           <SiMongodb color="#47A248" />
         </Skill>
       </div>

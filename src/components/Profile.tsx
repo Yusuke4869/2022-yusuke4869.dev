@@ -13,13 +13,6 @@ const Profile: FC = () => (
         <p>Student and Developer</p>
       </div>
     </div>
-    <div className="pt-2">
-      <p className="text-2xl underline underline-offset-2 decoration-orange-500">About Me</p>
-      <div className="pl-4">
-        <p>I am a student in Ibaraki Japan.</p>
-        <p>Now, I like Next.js and often use it with Tailwind CSS.</p>
-      </div>
-    </div>
   </div>
 );
 

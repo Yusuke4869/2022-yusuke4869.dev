@@ -1,7 +1,6 @@
-import type { FC, ReactNode } from "react";
-import Link from "next/link";
-
 import Repository from "components/Repository";
+import Link from "next/link";
+import type { FC, ReactNode } from "react";
 
 type Props = {
   Title: string;

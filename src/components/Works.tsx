@@ -1,15 +1,14 @@
-import type { FC } from "react";
 import Product from "components/Product";
-
+import type { FC } from "react";
 import {
-  SiPython,
-  SiTypescript,
-  SiNextdotjs,
+  SiDiscord,
   SiFlask,
+  SiNextdotjs,
+  SiPython,
   SiSass,
   SiTailwindcss,
-  SiDiscord,
   SiTwitter,
+  SiTypescript,
 } from "react-icons/si";
 
 const Works: FC = () => (
@@ -18,13 +17,13 @@ const Works: FC = () => (
     <div className="flex justify-center lg:justify-between flex-wrap ml-4">
       <Product
         Title="VC Notice Bot"
-        Description={["Bot for Sending Notifications for Activity in Discord VC", "With discord.py"]}
+        Description={["Bot for Sending Notifications for Activity in Discord VC"]}
         URL={null}
         isRepo
         Username="Yusuke4869"
-        Repo="discord-vc-notice"
+        Repo="vc-notice"
       >
-        <SiPython color="#3776AB" />
+        <SiTypescript color="#3178C6" />
         <SiDiscord color="#5865F2" />
       </Product>
       <Product
@@ -41,7 +40,7 @@ const Works: FC = () => (
       </Product>
       <Product
         Title="Growthers/Blog"
-        Description={["Blog of Growthers", "With Next.js and Tailwind CSS"]}
+        Description={["Blog of Growthers"]}
         URL="https://blog.growthers.dev"
         isRepo
         Username="Growthers"
