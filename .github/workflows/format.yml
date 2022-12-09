@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@main
         with:
-          node-version-file: package.json
+          node-version: lts/*
 
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
