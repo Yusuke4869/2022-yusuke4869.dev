@@ -19,7 +19,6 @@
     ]
   },
   "engines": {
-    "node": "18.12.1",
     "npm": "Please use yarn instead"
   },
   "dependencies": {
