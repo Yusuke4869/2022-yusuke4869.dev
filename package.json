@@ -22,7 +22,7 @@
     "npm": "Please use yarn instead"
   },
   "dependencies": {
-    "next": "13.4.10",
+    "next": "13.4.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.3.1"
@@ -37,7 +37,7 @@
     "eslint": "8.45.0",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "13.4.10",
+    "eslint-config-next": "13.4.11",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.0.0",
